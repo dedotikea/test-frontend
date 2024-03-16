@@ -60,10 +60,10 @@ const LoginPage = () => {
                   margin="normal"
                   required
                   fullWidth
-                  id="email"
-                  label="Email"
-                  name="email"
-                  autoComplete="email"
+                  id="username"
+                  label="Username"
+                  name="username"
+                  autoComplete="username"
                   autoFocus
                 />
                 <TextField
@@ -134,16 +134,6 @@ const LoginPage = () => {
                       id="firstName"
                       label="Username"
                       autoFocus
-                    />
-                  </Grid>
-                  <Grid item xs={12}>
-                    <TextField
-                      required
-                      fullWidth
-                      id="email"
-                      label="Email Address"
-                      name="email"
-                      autoComplete="email"
                     />
                   </Grid>
                   <Grid item xs={12}>
